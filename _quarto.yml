@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Your_Name - Data Science Portfolio"
+  title: "Lara Robinson - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
   repo-url: https://github.com/username/username.github.io
@@ -10,10 +10,10 @@ website:
 
   page-footer: 
     border: true
-    left: "Your_Name 2024©"
-    right: 
+    left: "Lara Robinson 2024©"
+    right: https://www.linkedin.com/jobs/?mcid=6994434350142418944&src=go-pa&trk=sem-ga_campid.18853522261_asid.146084015209_crid.633923221414_kw.linkedin_d.c_tid.kwd-296170574619_n.g_mt.e_geo.9029885&cid=&gad_source=1&gclid=Cj0KCQjwqcO_BhDaARIsACz62vNd6er6rln9OC9s2aaKaJNHiul29jXzQwzAhwHGL4wB0rD0rZo4JUsaAjzHEALw_wcB&gclsrc=aw.ds
       - icon: linkedin
-        href: Your_LinkedIn_URL
+        href: 
 
   navbar:
     background: primary
@@ -175,11 +175,10 @@ website:
   
 format:  
   html:
-    theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
-      light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
+    theme: 
+      light: flatly
       dark: darkly
-      #light: cosmo
-      #dark: [cosmo, theme-dark.scss]
+
     css: styles.css
     toc: true
 
